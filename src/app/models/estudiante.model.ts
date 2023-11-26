@@ -6,7 +6,7 @@ class Estudiante {
 	tipoIdentificacion?:string;
 	identificacion?:string;
 	numeroCreditosAprobados?:number;
-	porcentajeCreditorAprobados?:number;
+	porcentajeCreditosAprobados?:number;
 	celular?:string;
 	idFacultad?:number;
 	idPrograma?:number;
