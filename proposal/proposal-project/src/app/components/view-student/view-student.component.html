@@ -16,7 +16,7 @@
         </tr>
     </thead>
     <tbody>
-        <tr>
+        <tr *ngFor="let estudiante of estudiantes">
             <td>{{ estudiante.nombres }}</td>
             <td>{{ estudiante.apelliidos }}</td>
             <td>{{ estudiante.correo }}</td>

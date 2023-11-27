@@ -14,7 +14,7 @@
         </tr>
     </thead>
     <tbody>
-        <tr>
+        <tr *ngFor="let docente of docentes">
             <td>{{ docente.nombres }}</td>
             <td>{{ docente.apelliidos }}</td>
             <td>{{ docente.correo }}</td>

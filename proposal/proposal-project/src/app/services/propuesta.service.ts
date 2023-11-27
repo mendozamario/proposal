@@ -5,7 +5,7 @@ import {Observable} from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
-export class DocenteService {
+export class PropuestaService {
   url = '';
   constructor(private http: HttpClient) { }
 
@@ -17,11 +17,11 @@ export class DocenteService {
 		return this.http.get<any>(this.url + id);
 	}
 
-	post(entity: Facultad): Observable<any> {
+	post(entity: Propuesta): Observable<any> {
 		return this.http.post<any>(this.url, entity);
 	}
 
-	put(entity: Facultad): Observable<any> {
+	put(entity: Propuesta): Observable<any> {
 		return this.http.put<any>(this.url, entity);
 	}
 
