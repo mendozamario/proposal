@@ -1,4 +1,4 @@
-class Programa {
+export class Programa {
 	id?:number;
 	codigo?:string;
 	nombrePrograma?:string;

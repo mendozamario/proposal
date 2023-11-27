@@ -1,4 +1,4 @@
-class Propuesta {
+export class Propuesta {
 	id?:number;
 	codigoPropuesta?:string;
 	tituloPropuesta?:string;

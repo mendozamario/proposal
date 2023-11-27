@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
-import {HttpClient} from '@angular/comon /http';
+import {HttpClient} from '@angular/common/http';
 import {Observable} from 'rxjs';
+import { Docente } from '../models/docente.model';
 
 @Injectable({
   providedIn: 'root'
@@ -18,7 +19,7 @@ export class DocenteService {
 	}
 
 	post(entity: Docente): Observable<any> {
-		return this.http.post<ny>(this.url, entity);
+		return this.http.post<any>(this.url, entity);
 	}
 
 	put(entity: Docente): Observable<any> {

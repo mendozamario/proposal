@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { EstudianteService } from '../../services/estudiante.service';
+import { Estudiante } from '../../models/estudiante.model';
 
 @Component({
   selector: 'app-view-student',

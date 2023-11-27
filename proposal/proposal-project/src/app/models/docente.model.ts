@@ -1,4 +1,4 @@
-class Docente {
+export class Docente {
 	id?:number;
 	nombres?:string;
 	apellidos?:string;
